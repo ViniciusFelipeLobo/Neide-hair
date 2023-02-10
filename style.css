@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap');
+:root{
+    --cor1:#636A73;
+    --cor2:#7B838C;
+    --cor3:#313740;
+    --cor4:#C5CCD9;
+    --cor5:#AAB1BF;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor4);
+}
+main{
+    height: 300px;
+    width: 700px;
+    background-image: linear-gradient(To bottom,var(--cor1),var(--cor2),var(--cor5));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px black;
+    font: bold 1.5em 'Great Vibes';
+}
+h1{
+    text-align: center;
+    padding-top: 125px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+nav{
+    margin: auto;
+    text-align: center;
+    font: 'Arial', sans-serif;
+}
+nav > a{
+    font: 0.3em;
+    margin: auto;
+    text-align: center;
+    font: 'Arial';
+}
