@@ -1,10 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Luckiest+Guy&family=Monsieur+La+Doulaise&family=Poppins&family=Style+Script&display=swap');
-@font-face {
-    font-family: Bloom;
-    src: url(SimpleThread_PERSONAL_USE_ONLY.otf);
-}
-
 :root{
     --font1: Poppins;
     --corprimaria: #EF6024;
