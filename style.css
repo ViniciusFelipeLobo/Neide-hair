@@ -48,9 +48,10 @@
         font-size: 2rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         height: 100vh;
+        text-align: center;
     }
     img{
         width: 100%;
