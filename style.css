@@ -53,6 +53,9 @@
         height: 100vh;
         text-align: center;
     }
+    #apresentacao{
+        text-align: left;
+    }
     #descricao{
         font-weight: normal;
         font-size: 1rem;
