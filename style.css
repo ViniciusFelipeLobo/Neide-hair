@@ -161,6 +161,9 @@
         align-items: center;
         flex-direction: row;
     }
+    #conteudo{
+        padding-left: 15px;
+    }
     #apresentacao{
         font: normal bold 2rem Poppins,'arial';
         color: var(--corsecundaria);
