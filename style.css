@@ -122,7 +122,7 @@
     #logo{
         color: var(--corsecundaria);
         padding-left: 15px;
-        font: normal lighter 1.5em Poppins, 'arial';
+        font: normal lighter 2rem Poppins, 'arial';
     }
     strong{
         color: var(--corprimaria);
@@ -154,15 +154,17 @@
         align-items: center;
         flex-direction: row;
     }
-    main p{
+    #apresentacao{
+        font: normal bold 2rem Poppins,'arial';
         color: var(--corsecundaria);
-        margin-left: 15px;
-        font: normal bold 2em Poppins,'arial';
-}
-footer{
+    }
+    #decricao{
+        font: normal bold 1rem Poppins, 'arial'; 
+    }
+    footer{
     text-align: center;
     background-color: var(--corprimaria);
     color: var(--corsecundaria);
     font-size: 1.1rem;
-}
+    }
 }
