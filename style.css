@@ -28,6 +28,10 @@
         padding: 10px;
         font-size: 3rem;
     }
+    #complemento{
+        font-size: 1rem;
+        color: var(--corsecundaria);
+    }
     nav{
         width: 100vw;
 
@@ -93,7 +97,7 @@
     }
 }
 @media (min-width: 900px) {
-
+    
     header{
         display: flex;
         height: 100px;
@@ -123,6 +127,9 @@
         color: var(--corsecundaria);
         padding-left: 15px;
         font: normal lighter 2rem Poppins, 'arial';
+    }
+    #complemento{
+        display: none;
     }
     strong{
         color: var(--corprimaria);
