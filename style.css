@@ -11,7 +11,7 @@
     /*font-family: var(--font1), 'sans-serif';
 */
 }
-@media (min-width: 300px){
+@media (min-width: 300px) and (max-width: 500px){
     body{
         font-weight: bold;
     }
@@ -25,6 +25,7 @@
         color: var(--corprimaria)
     }
     #logo{
+        padding: 10px;
         font-size: 3rem;
     }
     nav{
@@ -34,10 +35,26 @@
     ul{
         display: flex;
         list-style: none;
-        justify-content: space-evenly;
-        margin-top: 5px;
+        justify-content: space-around;
     }
     li{
+        position: relative;
+    }
+    a:hover{
+        color: var(--corprimaria);
+    }
+    nav a::after{
+        position: absolute;
+        background-color: #EF6024;
+        content: " ";
+        width: 0%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+    }
+    nav a:hover::after{
+        width: 87%;
+        transition: 0.5s ease-in-out;
     }
     a{
         text-decoration: none;
@@ -48,13 +65,17 @@
         font-size: 2rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         height: 100vh;
         text-align: center;
     }
+    #conteudo{
+        order: 2;
+    }
+    
     #apresentacao{
-        text-align: left;
+        text-align: center;
     }
     #descricao{
         font-weight: normal;
@@ -106,6 +127,22 @@
     strong{
         color: var(--corprimaria);
     }
+    li{
+        position: relative;
+    }
+    nav a::after{
+        position: absolute;
+        background-color: #EF6024;
+        content: " ";
+        width: 0%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+    }
+    nav a:hover::after{
+        width: 87%;
+        transition: 0.5s ease-in-out;
+    }
     a:hover{
         color: var(--corprimaria);
     }
@@ -121,5 +158,11 @@
         color: var(--corsecundaria);
         margin-left: 15px;
         font: normal bold 2em Poppins,'arial';
+}
+footer{
+    text-align: center;
+    background-color: var(--corprimaria);
+    color: var(--corsecundaria);
+    font-size: 1.1rem;
 }
 }
